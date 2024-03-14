@@ -26,15 +26,15 @@ const Register = () => {
   };
 
   return (
-    <div class="registration-form">
+    <div className="registration-form">
       <h2>User Registration</h2>
-      {errorMessage && <p class="error-message">{errorMessage}</p>}
-      <input type="username" class="input-field" placeholder="Username" value={username} onChange={(e) => setUsername(e.target.value)} />
-      <input type="password" class="input-field" placeholder="Password" value={password} onChange={(e) => setPassword(e.target.value)} />
-      <button class="register-button" onClick={handleRegister}>Register</button>
+      {errorMessage && <p className="error-message">{errorMessage}</p>}
+      <input type="username" className="input-field" placeholder="Username" value={username} onChange={(e) => setUsername(e.target.value)} />
+      <input type="password" className="input-field" placeholder="Password" value={password} onChange={(e) => setPassword(e.target.value)} />
+      <button className="register-button" onClick={handleRegister}>Register</button>
       <br />
-      Already have an account <Link to='./login' class="login-link"><p>Login</p></Link>
-      <Link to='/private' class="private-link"><h1>Private</h1></Link>
+      Already have an account <Link to='./login' className="login-link"><p>Login</p></Link>
+      <Link to='/private' className="private-link"><h1>Private</h1></Link>
 </div>
   );
 };

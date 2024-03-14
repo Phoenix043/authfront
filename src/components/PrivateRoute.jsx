@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { Route, useNavigate } from 'react-router-dom';
+import { Link, Route, useNavigate } from 'react-router-dom';
 import Logout from './Logout';
 import axios from 'axios';
 
@@ -35,11 +35,12 @@ const PrivateRoute = () => {
   // If authenticated, render the component
   return (
     <>
-      <div class='container'>
-        <div class="hoverable-div">
-          <h1 class="hello-heading">Hello {name}</h1>
+      <div className='container'>
+        <div className="hoverable-div">
+          <h1 className="hello-heading">Hello {name}</h1>
         </div>
           <Logout />
+          <Link to='/'>Home</Link>
       </div>
     </>
   );

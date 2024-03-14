@@ -22,12 +22,12 @@ const Login = () => {
   };
 
   return (
-    <div class="login-form">
-    <input type="text" class="input-field" placeholder="Username" value={username} onChange={(e) => setUsername(e.target.value)} />
-    <input type="password" class="input-field" placeholder="Password" value={password} onChange={(e) => setPassword(e.target.value)} />
-    <button class="login-button" onClick={handleLogin}>Login</button>
+    <div className="login-form">
+    <input type="text" className="input-field" placeholder="Username" value={username} onChange={(e) => setUsername(e.target.value)} />
+    <input type="password" className="input-field" placeholder="Password" value={password} onChange={(e) => setPassword(e.target.value)} />
+    <button className="login-button" onClick={handleLogin}>Login</button>
     <br />
-    <Link to='/' class="register-link">Register</Link>
+    <Link to='/' className="register-link">Register</Link>
     </div>    
   );
 };
