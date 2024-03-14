@@ -40,7 +40,7 @@ const PrivateRoute = () => {
           <h1 className="hello-heading">Hello {name}</h1>
         </div>
           <Logout />
-          <Link to='/'>Home</Link>
+          <Link className="logout-button" to='/'>Home</Link>
       </div>
     </>
   );
