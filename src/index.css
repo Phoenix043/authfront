@@ -161,15 +161,14 @@
   justify-content: center;
 }
 .logout-button2{
-  width: 100%;
-  padding: 10px;
-  margin: 10px 0;
-  background-color: #007bff;
-  color: white;
+  padding: 10px 20px;
+  background-color: #dc3545;
+  color: #fff;
   border: none;
   border-radius: 5px;
   cursor: pointer;
   transition: background-color 0.3s ease;
+  margin:10px;
 }
 /* Styles for Logout component can be added here if needed */
 
