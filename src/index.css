@@ -1,0 +1,164 @@
+.registration-form {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  transition: border-radius 0.3s ease;
+}
+
+.registration-form:hover {
+  border-radius: 20px;
+}
+
+.input-field {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  transition: border-radius 0.3s ease;
+}
+
+.input-field:hover {
+  border-radius: 8px;
+}
+
+.error-message {
+  color: red;
+}
+
+.register-button {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.register-button:hover {
+  background-color: #0056b3;
+}
+
+.login-link, .private-link {
+  text-decoration: none;
+  color: #007bff;
+}
+
+.login-link:hover, .private-link:hover {
+  color: #0056b3;
+}
+
+.login-form {
+  max-width: 300px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  transition: border-radius 0.3s ease;
+}
+
+.login-form:hover {
+  border-radius: 20px;
+}
+
+.input-field {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  transition: border-radius 0.3s ease;
+}
+
+.input-field:hover {
+  border-radius: 8px;
+}
+
+.login-button {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.login-button:hover {
+  background-color: #0056b3;
+}
+
+.register-link {
+  text-decoration: none;
+  color: #007bff;
+}
+
+.register-link:hover {
+  color: #0056b3;
+}
+
+.hoverable-div {
+  width: 200px;
+  height: 150px;
+  /* background-color: #0a0a0a; */
+  border: 1px solid black;
+  color: #fff;
+  border-radius: 8px;
+  text-align: center;
+  line-height: 150px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+  margin: 0 auto; /* Center the div horizontally */
+  margin-top: 25px;
+  margin-bottom: 25px;
+
+}
+
+
+.hoverable-div:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.logout-button {
+  padding: 10px 20px;
+  background-color: #dc3545;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.logout-button:hover {
+  background-color: #c82333;
+}
+
+
+.hoverable-div p {
+  margin: 0;
+  font-size: 18px;
+}
+
+
+.hello-heading {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+/* Styles for Logout component can be added here if needed */
+
